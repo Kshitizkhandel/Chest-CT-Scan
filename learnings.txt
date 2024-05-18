@@ -1,8 +1,0 @@
-# Why the need of of setup.py?
-Setup.py helps install folders as local packages? What do you mean by local packages? 
-This means that I can do from src.cnnclassifier import data ingestion, had it not been for setup.py
-it would have thrown an error. How does it identify what folders need to be treated as local packages?
-it looks for __init__.py inside each directory and wherever present it treats them as local packages
-
-# How is setup.py script initiated? Whenever we do pip install -r requirements.txt ity looks for -e variable and
-then initiates the setup.py
